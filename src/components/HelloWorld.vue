@@ -9,6 +9,8 @@ const props = defineProps<{
 
 <template>
   <div>{{ color }}</div>
+
+  <!-- 注释Button组件后，可以生成helloworld的声明文件 -->
   <Button>test</Button>
 </template>
 
